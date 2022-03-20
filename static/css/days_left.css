@@ -1,0 +1,220 @@
+*{
+    background-color: aqua;
+}
+
+.b{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: black; */
+}
+/* .c{
+    background-color: black;
+}
+.d{
+    background-color: black;
+}
+#navbar{
+    background-color: black;
+}
+#footer{
+    background-color: black;
+
+} */
+#blackheart{
+    display:none ;
+    position: relative;
+    top: 0em;
+    left: -31em;
+}
+#redheart{
+    display: inline-block;
+    position: relative;
+    top: -4em;
+    left: 20em;
+}
+.textba{
+    display: none;
+    font-size: 1.7em;
+    font-family: 'Gwendolyn', cursive;
+    position: relative;
+    top: -4.1em;
+    left: 16.5em;
+    color: black;
+    font-weight: bolder;
+    
+}
+.textb{
+    display: inline-block;
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+    top: 1.2em;
+    left: -2em;
+    font-weight: bolder;
+    color: black;
+}
+
+
+#list{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#list li{
+    list-style: none;
+    margin: 1.5em 2em;
+
+}
+#list li a{
+    color: black ;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+
+}
+
+/* .item{
+    border: 1px solid black;
+} */
+
+/* for class .c */
+
+#clock{
+    display: flex;
+
+}
+.clockcolor{
+    position: relative;
+    top: -3.2em;
+    left: 2em;
+    height: 10em;
+    width: 10em;
+    /* border: 1px solid black; */
+    margin: 4em;
+    color: black;
+
+}
+/* #timecont{
+    margin: 4em;
+} */
+
+#hours{
+    font-size: 2.5em;
+    font-family: 'Gwendolyn', cursive;
+    position: relative;
+    top: -3.0em;
+    left: 1.4em;
+    color: black;
+    font-weight: bolder;
+    width: 2em;
+
+}
+
+#minutes{
+    font-size: 2.5em;
+    font-family: 'Gwendolyn', cursive;
+    position: relative;
+    top: -3.0em;
+    left: 1.2em;
+    color: black;
+    font-weight: bolder;
+    border-radius: 50vh;
+    width: 2em;
+
+}
+
+#seconds{
+    font-size: 2.5em;
+    font-family: 'Gwendolyn', cursive;
+    position: relative;
+    top: -3.1em;
+    left: 1.2em;
+    color: black;
+    font-weight: bolder;
+    width: 2em;
+
+}
+#days{
+    color: black;
+    font-size: 2.5em;
+    font-family: 'Gwendolyn', cursive;
+    position: relative;
+    font-weight: bolder;
+    top: -3.0em;
+    left: 0.7em;
+    width: 2em;
+    border-radius: 30vh;
+
+}
+.subtitle{
+    width: 2em;
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Gwendolyn', cursive;
+    position: relative;
+    top: -4.6em;
+    left: 2.2em;
+
+}
+
+/* #text30{
+    
+    display: inline-block;
+    font-size: 2.2em;
+    font-weight: bolder;
+    position: relative;
+    top: 4.5em;
+    right: 39em;
+    font-family: 'Licorice', cursive;
+    /* border: 1px solid black; */
+    /* width: 8em;
+    /* height: 2em;
+    width:34em; */
+    /* height: 4em; */ 
+
+.red{
+    width: 7em;
+    height: 2em;
+    background-color: aqua;
+    position: relative;
+    top: 5em;
+    left: 1.2em;
+    border-radius: 30vh;
+    
+}
+
+/* Extra Responsive (aasan h )............ */
+
+@media (min-width:510px) and (max-width:666px){
+    body{
+         height: 200vh; 
+     }
+} 
+@media (min-width:666px) and (max-width:966px){
+    body{
+         height: 250vh; 
+     }
+} 
+ @media (min-width:400px) and (max-width:510px){
+    body{
+         height: 250vh; 
+     }
+} 
+ @media (min-width:300px) and (max-width:400px){
+    body{
+         height: 300vh; 
+     }
+} 
+ @media (min-width:200px) and (max-width:300px){
+    body{
+         height: 350vh; 
+     }
+}
+

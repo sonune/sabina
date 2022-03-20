@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block stylesheet %}
+<link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/Contect_me.css?{% now " U" %}" />
+<!-- <link rel="stylesheet" href="/static/css/base.css?{% now " U" %}" /> -->
+
+
+{% endblock stylesheet %}
+
+{% block title %}Massage_Me{% endblock title %}
+{% block b %}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div class="names">Sabina & lucky</div>
+<h3 id="submitted">{{submitted}}</h3>
+{% endblock b %}
+
+
+{% block c %}
+
+
+<div id="Conversation1">
+    <h1>Yaha ham sawal puchenge kabhi kabhi, aur pakka jawaab dena.</h1>
+    <form action="/mera_question_uska_answer" class="myQuestions" method="post">
+        {% csrf_token %}
+        <p class="question">My Questions - {{MyQuestion}} </p><br>
+        <label for="Sabina_ka_Jawab_of_specifice_question" id="heranswerlabel">Hmko yaha batana......</label><br>
+        <textarea name="Sabina_ka_Jawab_of_specifice_question" id="heranswer" cols="300" rows="100" class="textarea" placeholder="Yaha Jawaab dena.."></textarea><br>
+        <button type="submit" id="btn2">Submit</button>
+    </form>
+</div>
+<div id="Conversation2">
+    <h1>Yaha tum  puchana</h1>
+    <form action="/uska_question_mera_answer"  class="YourQuestions" method="post">
+        {% csrf_token %}
+        <label for="Uska_specific_question" id="herquestionlabel">YourQuestion:-</label>
+        <input type="text" name="Uska_specific_question" id="herquestion" placeholder="apna question likho.......">
+        <button type="submit" id="btn2">Submit</button>
+    </form>
+        <div class="MyAnswers">
+            <h2>yourQuestion:-"{{UskaQuestion}}"</h2>
+            <p class="Meraanswer">Jawwab:- "{{MyAnswer}}"</p>
+        </div>
+</div>
+{% endblock c %}
+
+
+{% block d %}
+
+<div id="hermassage">
+    <h1>Your Massage.......</h1>
+    <form action="/uska_massage" method="post" class="her">
+        {% csrf_token %}
+        <label for="Uska_massage" id="massagelabel">yaha batao...</label><br>
+        <textarea name="Uska_massage" id="massage" cols="300" rows="100" class="textarea"
+            placeholder="Yaha jo mann wo likhna" ></textarea>
+        <button type="submit" id="btn1">Submit</button>
+
+    </form>
+</div>
+
+{% endblock d %}

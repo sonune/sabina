@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/Website_Manual.css?{% now " U" %}" />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Website_Manual | JackJill</title>
+     <script>
+        let pass = prompt("Please Enter the Password?")
+        if (pass == "sabina") {
+            console.log("I am Sorry ,and I love you Sabina");
+        }
+        else {
+            window.location.href = "/getout";
+        }
+    </script>
+</head>
+
+<body id="body">
+    <div class="sections" id="Updates">
+        <div class="headings">
+            *-Updates-*
+            <h6 style="font-size: 0.5em;">(नई नई चिज़े)</h6>
+        </div>
+        <div class="desc">
+            <br><br>
+             tmko thoda sikhna padega isko kaise use krna hai..padhne jaisa hi hai,
+            thoda time lagega lakin hmko pata h tm sikh jaogi.. mere liye itna to jarror padhogi
+            hi aa jayga tmko 
+            <br> baaki sab same hi hoga. haa ham kahi par webapp kahi  par website likhe hai dono isi ko bolte hai...webpage
+            iska koi ek page ko bolte hai..' <br><br>
+            Yaha updates hoga........mera aur Website ka, jab bhi ye webApp kholo,ye page zarror check krna, ek chiz aur hai
+            ki ye baar baar password maangega jo ki dimag kharab krne wala chiz hai lakin zarrori hai... wrna koi bhi khol leta...
+    
+            .......... Please Please is webApp ko mazak me mt lena yhi sayad wo chiz  hai <br> jo hm dono ko jab tk sab shi nhi ho jaata utna 
+            din connect rkega...please use krne se pehle poora pdhna.... <br> suru suru me ye sara webpage zoom me dikhega to, <br> jaise photo ko
+            bada chota krte h na do fingers ki madat se waise hi krna chota ho jayga......aur contect_me wala me jaha <br> bada dekhna hoga waha zoom kr lena
+
+
+        </div>
+        <div class="paragraphs">
+
+            <div class="paragraphs">
+            saara updates  niche serial no wise hoga... <br>
+
+            {% for updates in update %}
+
+           {{updates.id}}. {{ updates.update }} <br>
+
+            {% endfor %}
+        </div>
+        </div>
+
+
+    </div>
+    <div class="sections" id="Precautions">
+        <div class="headings">
+            *-Precautions-*
+            <h6 style="font-size: 0.5em;">(सावधानियाँ)</h6>
+        </div>
+        <div class="desc">
+            ye website kholne se pehle kuch baat hmesa yaad rkhna ......
+        </div>
+        <div class="paragraphs">
+
+
+
+            *Akele me kholna jab thoda time ho tab hi........ ... <br>
+
+            * Ho ske to hamesa google chrome me kholna isko .baaki browser(jaise 'browser','opera mini') me sayad azeeb sa dikhega....isiliye <br> 
+            * hamesa incogneto me kholna ..aur aise hi kholo bhi to "TAB" band kr lena...aur paascode kisi ko mat banana
+            kisi ko bhi nhi, koi soch bhi nahi skta ki ye jamana website bana ke pyaar krne ka hai.. <br>
+
+        </div>
+    </div>
+    <div class="sections" id="steps_to_open_incogneto">
+        <div class="headings">
+            *-HOW TO OPEN INCOGNETIO TAB-*
+            <h6 style="font-size: 0.5em;">(Incogneto Tab ओपन करना कैसा है वो लिखा है)</h6>
+        </div>
+        <div class="desc">
+            ho skta hai hm bekaar me itna likh rhe hai lakin hm tmko fir se door jaate hue nhi dekhna chahte, isiliye sab kuch bata dena chahte h taaki fir se koi galti na ho aisa nhi h ki ham darte hai tumhara papa se..hmko tmhara fikr h..mera kaaran tumhare saath bura na ho jaay...mera saath to hua hi h.....agar aata hai to aage wala padhna...... agar photo achee se nhi dikhe to do fingers ki madad se zoom kr skti ho.... phir chota krlena
+        </div>
+        <div class="paragraphs">
+            1. open chrome <br>
+            <img src="/static/Website_manual_files/chrome situated.PNG" alt="..."><br>
+            2. agar kuch pehle se khula hai tab bhi same chiz karna hai <br>
+            <img src="/static/Website_manual_files/steps to find incogneto tab-1.PNG" alt="..."> <br>
+            3. uske baad new incogneto tab pe click krna jaise photo me dikh rha hai <br>
+            <img src="/static/Website_manual_files/steps to find incogneto tab-2.PNG" alt="..."> <br>
+            4. incogneto tab khul jayga..... yahi searchbar me search krna  'jackjill.pythonanywhere.com' <br>
+            <img src="/static/Website_manual_files/incogneto tab.PNG" alt="..."> <br>
+            5. ab password daalna jo bataye the is jagah.......  <br>
+            <img src="/static/Website_manual_files/entering password.PNG" alt="..."> <br>
+            6. ab dekho .... jaisa photo me dikh rha h waise hi zoom me khulega, ho skta h shi se khule lakin agar shi se nhi khula to ... do fingers ke madat se shi kr lena'sabse pehle isko padhna' wala jo blue color ka button hai usko padhna <br>
+            <img src="/static/Website_manual_files/sabse pehle isko padhna page.PNG" alt="..."> <br>
+
+            ab aage padhna ki use kaise krna hai......safily khul gaya hai..... <br> <br>
+
+            last me jab band krna ho to chrome ko recent apps se hata dena .....achee se ..... aur kosis krna ki hamesa sahi paasword daalo.... hamesa.... <br>
+            <img src="/static/Website_manual_files/closing chrome.PNG" alt="..."> <br>
+
+        </div>
+    </div>
+
+    <div class="sections" id="HOW_TO_USE">
+        <div class="headings">
+            *-HOW TO USE-*
+            <h6 style="font-size: 0.5em;">(इस्तमाल कैसा करना है वो लिखा है)</h6>
+        </div>
+        <div class="desc">
+           ye padhna ki how to use
+        </div>
+
+        <div class="paragraphs">
+            1.Homepage :- ye sirf homepage hai, 
+            , yaha do button hoga.. <br>
+
+            (i).'Sabse Pehle isko padhna' - ye wala website kaise use krna hai wo likha hai...sabkuch.
+            mtlb jitna hmko importent laga wo... aur doosra button. <br>
+            (ii).'I am there Lucky' - ye wala bahut importent button hai...isko jab bhi aao is website
+            me click kr dena ek baar ye aisa h ki hmko pta chal jayga ki tm aayi thi..
+            (jaise school me attendence hota hai waise hi)..please jab bhi aao click kr
+            dena...please,. <br><br>
+            <img src="/static/Website_manual_files/homepage.PNG" alt="...">
+             <br> <br> <br>
+
+           
+            6.Contect me -- ye bhi bahut importent page hai, is_se jab man jo man hmse bol skti ho...
+            bus ek phone aur internet chahiye aur haa incogneto mode me hi kholna ...
+            kul teen form hai <br> <br>
+            <img src="/static/Website_manual_files/contect_me page.PNG" alt="..."> <br>
+            (i). pehla 'my questions your answer' ...isme upar mera question hoga...kuch bhi ho skta hai...6 saal
+            hai......bahut quesitons aayga tmko bhi hamko bhi......
+            aur kynki dought tmko bhi aayga uske liye.. <br>
+            <img src="/static/Website_manual_files/my_questions_her_answer.PNG" alt="..."> <br> <br>
+
+            (ii). doosra hai,'your question my answer' wala form ...isme upar wala khali jagah me
+            tum question likhna.. aur niche wala jaga me jo sabse aakhri me question puchi hogi usi ka
+            answer hoga(ho skta hai late update ho lakin ho jayga... aur mera answer bhi lagbhag 12hour me update hoga
+            ,ye surver ka rule h ..kya kr skte h), question yaad rkne ka jarrorat nhi hai waha apne aap dikhne lagega tm
+            kya puchi ho... yaad rkhna ek din me filhaal ek hi question mtlb ek baar hi form use krna usme jitna lmba
+            likhna hai likh dena lakin 1 din me ek hi baar .wrna smjhne me dikkat hoga hmko, abhi aata nhi h achee se
+            hmko banane..isiliye..aur baaki your massage wala section to hai hi,aur.... <br>
+            <img src="/static/Website_manual_files/her_question_my_answer.PNG" alt="..."> <br> <br> <br>
+
+            (iii). Teesra 'your massage' wala form ....usme 3 question hai....aur usme tumhara massage hoga sirf, koi
+            sawal nhi koi jawab nhi...... aur mera kya hi hai hm to kahi bhi likh denge, <br>
+            <img src="/static/Website_manual_files/hermassage.PNG" alt="...">
+            <br><br><br>
+
+
+             jaise hi submit krogi password maangega aur fir 
+            submitted ...wala hara wala line dikhega ki submitted....... jaisa photo me dikh rha hai..
+            <img src="/static/Website_manual_files/submitted.jpg" alt="...">. <br> <br>
+
+        </div>
+
+
+    </div>
+
+    <div class="sections" id="extratips">
+        <div class="headings">
+            *-.Extra things.-*
+        <h6 style="font-size: 0.5em;">(कुछ अतिरिक्त चीजें)</h6>
+
+
+        </div>
+        <div class="desc">Kuch Extra chiz ...........</div>
+        <div class="paragraphs">
+            
+            * hamesa incogneto mode me kholna hamesa...us_se history nhi banta to kuch save nhi hoga.. phone me sidha
+            hmtak aa jayga.. <br> <br>
+
+            * agar kbhi bhi galat paasword daal di to ek page khulega jaha retry ka button hoga ..., <br>
+            uspe click kr dena.... ya url  doobara search kr lena..... password to pta hi <br>
+
+            isko pdhne ke baad 'your massage..' wala me form me bata dena ki smjh gyi
+            kaise use krna hai ki nhi wo okk??... <br><br>
+
+            <div class="desc">
+                Ab back jaao....... sikh gyi ho tm...
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

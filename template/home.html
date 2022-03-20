@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/static/css/home.css"> -->
+    <link rel="stylesheet" href="/static/css/base.css?{% now " U" %}" />
+    <link rel="stylesheet" href="/static/css/home.css?{% now " U" %}" />
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+
+
+    <title>Home|loveApp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- <link rel="shortcut icon" href="https://template.hasthemes.com/love-we/img/logo/logo.png" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/65/ca/72/65ca721920323f25b1804b230472bf35.jpg" type="image/x-icon">
+
+</head>
+
+<script>
+    let pass = prompt("Please Enter the Password?")
+    if (pass == "sabina") {
+        console.log("I am Sorry ,and I love you Sabina");
+    }
+    else {
+        window.location.href = "/getout";
+    }
+
+</script>
+
+<body id="body">
+    <!-- <div class="container"> -->
+    <div class="item" id="navbar">
+        <div class="love">
+            <a href="/">Home</a>
+        </div>
+        <ul id="list">
+            <li><a href="#">I love you</a></li>
+            <li><a href="#">I love you</a></li>
+            <li><a href="#">I love you</a></li>
+            <li><a href="#">I love you</a></li>
+            <li><a href="#">I love you</a></li>
+        </ul>
+        <div class="voice">
+            <a href="/Contect_me">Contect_me</a>
+        </div>
+    </div>
+
+    <div class="item" id="explain">
+        <pre id="updates" class="subitem"> <a href="/Website_Manual">Sabse pehle,
+  isko padhna,click here </a> </pre>
+        <div id="text" class="subitem">
+                We’re in love since <br>
+                &nbsp; &nbsp; the presence of world
+        </div>
+        <div class="subitem" id="attendence">
+        <form action="/" method="post">
+            {% csrf_token %}
+            <label for='I_am_there_lucky'>Jab bhi aao is button ko touch kr dena,<br>
+                            'I am there lucky wala' </label><br>
+            <input type="text" name="I_am_there_lucky" id="attendencetext" value="Abhi aayi the ham.,{{Days_left}} , aur time niche hai">
+            <input type="submit" value="I am there lucky.." id="attendencebtn">
+        </form>
+    </div>
+        
+    </div>
+    <div class="item" id="weds">
+        <div id="Welcome">{{submitted}}</div>
+        <div class="text2">
+            Sabina & Lucky
+        </div>
+    </div>
+    <div class="item" id="Images" style="visibility: hidden;">
+        <div id="photos">
+            <div id="Sabina">
+                <img src="/static/img/Sabina.jpeg" alt="...">
+            </div>
+            <div class="heart">
+                <img src="/static/img/heart_img.png" alt="...">
+            </div>
+            <div id="lucky">
+                <img src="/static/img/lucky.jpg" alt=",...">
+            </div>
+        </div>
+    </div>
+    <div class="item" id="footer" style="color: black;" >
+        <div id="text3">
+            Copyright © 2022All rights reserved Admin-Sabina
+        </div>
+    </div>
+    <!-- </div>-->
+
+</body>
+
+</html>
+
+
+
+<!-- transform: rotate(45deg); :----For rotating a image......... -->

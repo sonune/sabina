@@ -1,0 +1,257 @@
+.names {
+    color: white;
+    font-family: 'Love Light', cursive;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+#submitted{
+    display: inline-block;
+    color: white;
+    font-family: 'Love Light', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: aquamarine;
+    border-radius: 5em;
+    padding: 0.2em;
+    margin-left: 2em;
+    
+}
+
+#done {
+    color: white;
+    opacity: 90%;
+    font-family: 'Love Light', cursive;
+
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.container {
+    /* width: 100%; */
+    height: 120vh;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.15fr 1fr 0.2fr;
+    grid-template-columns: 1fr;
+    background-color: black;
+}
+
+#Images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hermassage {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 1em;
+
+}
+
+#lovelabel {
+    font-family: 'Love Light', cursive;
+    font-size: 1.4em;
+    
+
+}
+
+#love {
+    font-family: 'Cookie', cursive;
+    width: 18em;
+    height: 2em;
+    font-size: inherit;
+    padding: 0.3em;
+    border-radius: 0.4em;
+
+}
+
+#conditionlabel {
+    font-family: 'Love Light', cursive;
+    font-size: 1.4em;
+}
+
+#Condition {
+    font-family: 'Cookie', cursive;
+    width: 18em;
+    height: 2em;
+    font-size: inherit;
+    border-radius: 0.4em;
+    padding: 0.3em;
+
+
+}
+
+.textarea {
+    width: 22em;
+    height: 14em;
+    border-radius: 0.4em;
+    font-family: 'Kaushan Script', cursive;
+    font-size: inherit;
+    border-radius: 0.4em;
+    padding: 0.3em;
+
+}
+#massagelabel{
+    font-family: 'Love Light', cursive;
+    font-size: 1.4em;
+
+}
+#btn1{
+    color: white;
+    background-color: pink;
+    /* width: 5em;
+    height: 2.4em; */
+    border-radius: 0.4em;
+    font-family: 'Love Light', cursive;
+    font-size: 1.2em;
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#btn2{
+    color: white;
+    background-color: pink;
+    /* width: 5em;
+    height: 2.4em; */
+    border-radius: 0.4em;
+    font-family: 'Love Light', cursive;
+    font-size: 1.2em;
+}
+#btn2:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#btn3{
+    color: white;
+    background-color: pink;
+    /* width: 5em;
+    height: 2.4em; */
+    border-radius: 0.4em;
+    font-family: 'Love Light', cursive;
+    font-size: 1.2em;
+}
+#btn3:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* My questiiions form */
+
+#weds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#Conversation1{
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0.3em;
+}
+#Conversation1 h1{
+    /* font-family: 'Love Light', cursive; */
+    font-family: 'Kaushan Script', cursive;
+
+    /* font-size: inherit; */
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+.question{
+    font-family: 'Love Light', cursive;
+    font-size: 2em;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+
+#heranswerlabel{
+    font-family: 'Love Light', cursive;
+    font-size: 2em;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+#Conversation2{
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0.3em;
+}
+#Conversation2 h1{
+    /* font-family: 'Love Light', cursive; */
+    font-family: 'Kaushan Script', cursive;
+    /* font-size: inherit; */
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+#herQuestions{
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+
+#heranswerlabel{
+    font-family: 'Love Light', cursive;
+    font-size: 2em;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+
+#herquestion{
+    width: 22em;
+    border-radius: 0.4em;
+    font-family: 'Kaushan Script', cursive;
+    font-size: inherit;
+    border-radius: 0.4em;
+    padding: 0.3em;
+}
+#herquestionlabel{
+    font-family: 'Love Light', cursive;
+    font-size: 2em;
+
+
+}
+.MyAnswers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 0.3em;
+}
+.MyAnswers h2{
+    font-family: 'Love Light', cursive;
+    font-size: 1.2em;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+.Meraanswer{
+    /* font-family: 'Love Light', cursive; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.7em;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}
+
+#hermassage h1{
+    font-family: 'Love Light', cursive;
+    font-size: 2em;
+    padding: 0.3em;
+    border-radius: 0.4em;
+}

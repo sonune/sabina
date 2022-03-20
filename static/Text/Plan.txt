@@ -1,0 +1,52 @@
+----------Planning------------
+
+1.{
+	My website will contain... for love side.....
+	1.Events
+	2.Photos and Videos
+	3.Our Story
+	4.Days Remaning and Motivation..
+	5.Parents..Side..
+	6.Future Plans.....
+	7.when i was sad and i uesd to watch  them
+	8.Stories animations....for her...
+................for Parents app.............
+	1.Their photos
+	2.embedded videos(courses)
+	3.their confermation
+	4.clock for them
+	5.Future for them(personal)
+	6.books for them
+	
+}
+
+2.Two apps for that ...{
+	1.Parent Side Apps.
+	2.Love...
+}
+
+3.For Python...Script...{
+
+	Use how much Days are Remaining.......
+	Then After -1,-2.........till infinite..
+}
+
+4{
+
+one copy for my mom, for her refrance about days left..........
+
+}
+
+
+
+
+--------------------Days_left---------------------template=======================
+1.Keep Going My boy........you will get your love...........
+2.time days , hours , minutes , seconds {with decoration}
+3.If you are feeling happy for nothing .................remwber you are here for not doing that things....
+4.Come I will guide 
+
+	
+
+------Our story wala page ke liye...........3 coloumn rhega...ek me pura story rhega aakhri tak ,
+doosre me saare incidents honge......aur teesre me jo paper se chaapkar likhna hai.....matlb 3 section hoga aur sab me section id ......

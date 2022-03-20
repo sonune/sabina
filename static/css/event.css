@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 1fr;
+    grid-template-rows: 9vh 1fr 7fr 1fr 10vh;
+}
+
+
+.textarea{
+        width: 21em;
+        height: 23em;
+}
+
+#Images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    border: 1px solid white;
+}
+.heading{
+    font-family: 'Cookie', cursive;
+    font-size: 3.4em;
+    color: white;
+
+}

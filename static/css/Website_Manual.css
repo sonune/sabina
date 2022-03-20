@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* ------------------Universals---------------------- */
+
+.paragraphs{
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+.headings{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.desc{
+    display: block;
+    font-size: 1.6em;
+    text-align: center;
+    color: white;
+}
+
+
+#body{
+    min-height: 100vh;
+    border: 1px solid black;
+    background-color: aqua;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------UpdateSections---------------------- */
+
+#Updates{
+    height: 20%;
+    border: 2px solid white;
+
+}
+#Updates .paragraphs{
+    font-size: 1.1em;
+
+}
+
+/* ------------------PrecautionSections---------------------- */
+
+#Precautions{
+    height: 20%;
+    border: 2px solid white;
+}
+
+/* ------------------HOWTOUSE Sections---------------------- */
+#HOW_TO_USE{
+    height: 60%;
+    border: 2px solid white;
+}
+
+img{
+    height: 10em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Responsive (aasan h )............ */
+
+@media (min-width:510px) and (max-width:666px){
+    body{
+         min-height: 150vh;
+     }
+}
+ @media (min-width:400px) and (max-width:510px){
+    body{
+        min-height: 200vh;
+     }
+}
+ @media (min-width:300px) and (max-width:400px){
+    body{
+        min-height: 250vh;
+     }
+}
+ @media (min-width:200px) and (max-width:300px){
+    body{
+        min-height: 300vh;
+     }
+}
